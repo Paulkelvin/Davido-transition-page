@@ -1,0 +1,100 @@
+*{
+    padding:0em;
+    margin:0em;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+body{
+}
+h1{
+    color:orange;
+}
+.wrap{
+    padding:2em;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    max-width: 85em;
+}
+header{
+    background-color: navy;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+}
+li{
+    margin-left: 3em;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:orange;
+}
+.image-section{
+    background-color:orange;
+    height:26em;
+    padding:2em;
+}
+.image-section .gallery-container{
+    float:left;
+    width:33.33%;
+}
+.image-and-description img{
+    width:100%;
+}
+img{
+    height: 20em;
+}
+.image-and-description .picture-description{
+    font-size:1.1rem;
+    font-weight:500;
+    color:navy;
+    opacity:0;
+    text-align: center;
+}
+.about-container, .career-container{
+    padding-right: 2em;
+    text-align: justify;
+}
+.read-more{
+    background:none;
+    border:solid 2px; black;
+    cursor:pointer;
+    font-size: 1.1rem;
+    padding:0.35em 0.8em;
+    margin-top:0.7em;
+    position:relative
+}
+#Blog .wrap{
+    background-color: navy;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#Blog{
+    margin-top:1em;
+}
+.learn-more{
+    background-color: white;
+    border:solid 2px; black;
+    cursor:pointer;
+    font-size: 1.1rem;
+    padding:0.35em 0.8em;
+    margin-top:0.7em;
+    position:relative
+}
+#Blog .wrap p{
+    font-size: 1.2rem;
+    color:orange;
+}
+footer{
+    background-color:black;
+    color:orange;
+    text-align: center;
+    height:3em;
+    padding:1em;
+    word-spacing: 0.1em;
+    letter-spacing: 0.05em;
+}
